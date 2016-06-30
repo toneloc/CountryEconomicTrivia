@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.toneloc.countrytrivia.InfoActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Note on figures
+
+Most of these figures are World Bank figures from 2013 or 2014. Please note that monetary figures are for the most part converted into USD prices based on currency conversions at prevailing market exchange rates.
+
+Note that purchasing power parity (PPP) estimates of GDP are sometimes preferred to exchange-rate GDP estimates. This is because PPP estimates of GDP account for variations in the cost of goods and services across country. For example, a given unit of value will often buy you more Big Macs in a poor country than a rich country.
+
+In cases where PPP differs widely from exchange-rate GDP figures, I have used some personal judgment to modify exchange-rate GDP per capita figures. Some major countries which will require modification include: China, Brazil, ___
+
+The reason I have used judgment on PPP is because aggregate GDP
+
+The GDP/capita question therefore, should be thought of as assesing how well-off an individual inhabitant of the country is. The GDP question should used to asses the strength of a global economy.
+
+GDP is a very imperfect measure, especially over  a
+
+See: Economist, Big Mac Index
+"
+        android:id="@+id/info_txt"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
