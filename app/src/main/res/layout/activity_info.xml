@@ -27,7 +27,7 @@ The GDP/capita question therefore, should be thought of as assesing how well-off
 
 GDP is a very imperfect measure, especially over  a
 
-See: Economist, the Big Mac Index
+See: Economist, The Big Mac Index
 "
         android:id="@+id/info_txt"
         android:layout_centerVertical="true"
